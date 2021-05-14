@@ -25,7 +25,7 @@ module.exports = {
         const intro = new Discord.MessageEmbed()
         .setAuthor(client.user.tag, client.user.displayAvatarURL())
         .setTitle(`${emoji.Wave} Introduction !!`)
-        .setDescription(`Hey there I'm ${client.user.username} my prefix is **\`${config.Prefix}\`** and **ping me if you forget the prefix**, I was developed by TITΛΠ ✘ NiKz乛 ᵀᴺ#6969 and also if you want to get the list of commands then react to emojis that I have already reacted so yeah lets gets started !!`)
+        .setDescription(`Hey there I'm ${client.user.username} I was developed by TITΛΠ ✘ NiKz乛 ᵀᴺ | my prefix is **\`${config.Prefix}\`**, in case u forget it just ping me once | Lets get started, just react to emojis to get a full list of my commands | Hope you enjoy having me in your server.`)
         .addField(`${emoji.Search} For The Detailed Help For a Command`, `\`${config.Prefix}help [command name]\``)
         .addField('We Have Commands For:', `${emoji.Fun} \`Fun\`\n${emoji.Info} \`Info\`\n${emoji.Moderation} \`Moderation\`\n${emoji.Utility} \`Utility\`\n${emoji.Camera} \`Image\`\n${emoji.DoggoLul} \`Animals\`\n${emoji.Wink} \`Others\`\n${emoji.Misc} \`Misc\``)
         .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
